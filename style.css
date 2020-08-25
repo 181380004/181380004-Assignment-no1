@@ -1,0 +1,119 @@
+background{
+    background-image: url("hero.jpg")
+    height:100vh;
+    margin-top:-25px;
+    .align-center{
+        text-align:center;
+    }
+
+}
+.text.center{
+    text-align : center;
+}
+.text-white{
+    color: white;
+}
+.display-1{
+    font-size:65px;
+}
+.display-2{
+    font-size: 30px;
+html{
+	scroll-behavior: smooth;
+}
+body{
+	margin:0;
+	font-family:Arial;
+}
+.background{
+	background-image: url("hero.jpg");
+	background-size:cover;
+	background-repeat: no repeat;
+	height: 100vh;
+}
+.align-center{
+padding-top:250px;
+}
+.text-center{
+text-align: center;
+}
+
+.btn{
+    padding: 16px 32 px;
+    font-size: 25 px;
+}
+.btn-red{
+    background-color:red
+    color: white
+    border:none;
+
+}
+.btn-dark{
+      background-color:black;
+      color:white;
+      border:none;
+}
+button#explorebtn:hover{
+    background-color: black;
+}
+button#contactbtn:hover{
+background-color: red;
+}
+.navbar{
+    display: flex;
+    blackground-colour:#3a3a3a;
+}
+nav < a{
+    padding:20px;
+    color: white;
+text-decoration: none;
+
+}  
+nav.navbar > a:hower{
+    background-color: white;
+    color: #3a3a3a;
+    transition:ease-in-out  0.5s;
+}
+.bdc{
+display:flex;
+background-color:brown;
+}
+.pic1{
+text-algin: right;
+width: 50%;
+length:100;
+}
+.bb{
+text-align:center;
+}
+.hello{
+text-align:center;
+background-color:brown;
+}
+.pic2{
+ padding:30px;
+width:30%;
+margin:50px;
+}
+.pic3{
+padding:30px;
+width:30%;
+margin:50;
+}
+.pic4{
+padding:30px;
+width:30;
+margin:50;
+}
+.cntnt{
+text-align:center;
+}
+.abc{
+display: flex;
+}
+.bc{
+background-color:gainsboro;
+}
+.mail{
+margin: 300px;
+}
