@@ -1,119 +1,110 @@
-background{
-    background-image: url("hero.jpg")
-    height:100vh;
-    margin-top:-25px;
-    .align-center{
-        text-align:center;
-    }
-
-}
-.text.center{
-    text-align : center;
-}
-.text-white{
-    color: white;
-}
-.display-1{
-    font-size:65px;
-}
-.display-2{
-    font-size: 30px;
 html{
-	scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 body{
-	margin:0;
-	font-family:Arial;
+    margin:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .background{
-	background-image: url("hero.jpg");
-	background-size:cover;
-	background-repeat: no repeat;
-	height: 100vh;
+    background-image: url("hero.jpg");
+    background-size: cover;
+    height:100vh;
+    background:no-repeat;
+}
+.texr-center{
+    text-align:center;
 }
 .align-center{
-padding-top:250px;
+    padding-top: 275px;
 }
-.text-center{
-text-align: center;
+.text-red{
+    color: blueviolet;
 }
-
+.text-white{
+    color: darkgray;
+}
+.display-1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size-adjust: 50px;
+}
+.display-2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size-adjust: 25px;
+}
 .btn{
-    padding: 16px 32 px;
-    font-size: 25 px;
+    border:none;
+    font-size-adjust: 20px;
+    padding: 7px 26px;
 }
 .btn-red{
-    background-color:red
-    color: white
-    border:none;
-
+    color: white;
+    background-color: red;
 }
 .btn-dark{
-      background-color:black;
-      color:white;
-      border:none;
+    background-color: black;
+    color: white;
 }
-button#explorebtn:hover{
+button#exploreBtn:hower{
     background-color: black;
 }
-button#contactbtn:hover{
-background-color: red;
+button#contactBtn:hower{
+    background-color: red;
+}
+.flex-container{
+    width: 45px;
+}
+.main{
+    display: flex;
+    background-color: rosybrown;
+}
+.ig{
+    text-align: right;
+    length:100px;
+    width:55px;
+}
+.hh{
+    text-align: center;
+
+}
+.next{
+    background-color: rosybrown;
+    text-align: center;
+}
+nav.navbar > a{
+    color: white;
+    transition:ease-in-out 0.5s;
+    padding:25px;
 }
 .navbar{
+    background-color: #3a3a3a;
     display: flex;
-    blackground-colour:#3a3a3a;
+    top: 0%;
 }
-nav < a{
-    padding:20px;
-    color: white;
-text-decoration: none;
-
-}  
-nav.navbar > a:hower{
-    background-color: white;
-    color: #3a3a3a;
-    transition:ease-in-out  0.5s;
+.ig3{
+    padding:30px;
+    width: 30;
+    margin:50px;
 }
-.bdc{
-display:flex;
-background-color:brown;
+.ig4{
+    padding:30px;
+    width: 30;
+    margin:50px;
 }
-.pic1{
-text-algin: right;
-width: 50%;
-length:100;
+.co{
+    text-align: center;
 }
-.bb{
-text-align:center;
-}
-.hello{
-text-align:center;
-background-color:brown;
-}
-.pic2{
- padding:30px;
-width:30%;
-margin:50px;
-}
-.pic3{
-padding:30px;
-width:30%;
-margin:50;
-}
-.pic4{
-padding:30px;
-width:30;
-margin:50;
-}
-.cntnt{
-text-align:center;
-}
-.abc{
-display: flex;
+.Aus{
+    display: flex;
 }
 .bc{
-background-color:gainsboro;
+    background-color: burlywood;
 }
-.mail{
-margin: 300px;
+.na{
+    margin:250px;
+}
+.su{
+    background-color: crimson;
+    border: none;
+    font-size-adjust: 20px;
+    padding:10px 25px;
 }
